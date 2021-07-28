@@ -7,5 +7,9 @@
     android:id="@+id/settings_option"
     android:title="@string/settings_label"
     app:showAsAction="never"/>
+  <item
+    android:id="@+id/sing_out"
+    android:title="@string/sign_out"
+    app:showAsAction="never"/>
 
 </menu>
