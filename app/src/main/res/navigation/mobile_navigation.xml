@@ -5,6 +5,10 @@
   android:id="@+id/mobile_navigation"
   app:startDestination="@+id/navigation_play">
 
+  <action
+    android:id="@+id/show_profile"
+    app:destination="@+id/navigation_profile"/>
+
   <fragment
     android:id="@+id/navigation_play"
     android:label="@string/title_play"
@@ -22,4 +26,9 @@
     android:label="@string/title_history"
     android:name="edu.cnm.deepdive.codebreaker.controller.HistoryFragment"
     tools:layout="@layout/fragment_history"/>
+
+  <dialog
+    android:id="@+id/navigation_profile"
+    android:name="edu.cnm.deepdive.codebreaker.controller.ProfileFragment"/>
+
 </navigation>
