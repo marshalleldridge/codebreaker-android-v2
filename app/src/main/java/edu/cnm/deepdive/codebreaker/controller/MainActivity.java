@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
       case R.id.settings_option:
         openSettings();
         break;
-      case R.id.sing_out:
+      case R.id.sign_out:
         signOut();
         break;
       default:
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
           Intent intent = new Intent(this, LoginActivity.class)
               .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
           startActivity(intent);
-            });
+        });
   }
 
   private void openSettings() {
